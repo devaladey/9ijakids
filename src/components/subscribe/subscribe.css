@@ -1,0 +1,32 @@
+.subscribe {
+    padding: 5rem 0;
+}
+
+.subscribe-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-col {
+    width: 50%;
+}
+
+.subscribe-col-text span {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--color-yellow);
+}
+
+.subscribe-col-text h3 {
+    font-size: 5rem;
+    font-family: serif;
+    color: var(--color-dark-blue);
+    margin-top: 1.2rem;
+}
+
+.subscribe-col-img img {
+    width: 100%;
+}
+

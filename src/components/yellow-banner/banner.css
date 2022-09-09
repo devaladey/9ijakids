@@ -1,0 +1,42 @@
+.banner {
+    background-color: var(--color-yellow);
+    padding: 10px 0;
+}
+
+.banner-row {
+    display: flex;
+    align-items: center;
+}
+
+.banner-col:nth-child(1) {
+    flex: 1;
+}
+
+.banner-col:nth-child(2) {
+    flex: 2;
+}
+
+.banner-col:nth-child(3) {
+    /* margin-left: auto; */
+}
+
+.banner-text {
+    font-size: 16px;
+}
+
+.banner-text span:first-of-type {
+    margin-right: .5rem;
+    color: var(--color-dark);
+}
+
+.banner-socialmenu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.banner-social-link {
+    color: var(--color-dark);
+}

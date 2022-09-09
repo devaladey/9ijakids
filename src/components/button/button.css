@@ -1,0 +1,15 @@
+.btn {
+    display: inline-block;
+    background: var(--color-yellow);
+    padding: 1rem 2rem;
+    border-radius: .4rem;
+    border: none;
+    color: var(--color-dark-blue);
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.btn:hover {
+    letter-spacing: .5px;
+}

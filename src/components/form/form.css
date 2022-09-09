@@ -1,0 +1,35 @@
+.form {
+    position: relative;
+    margin-top: 6rem;
+}
+
+.form-control {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form-input {
+    flex: 1;
+    padding: 1.5rem 2rem;
+    outline: none;
+    border: 1px solid var(--color-grey);
+    font-size: 1.6rem;
+    padding-left: 5rem;
+    color: var(--color-grey);
+}
+
+.form-control > span {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    color: var(--color-dark);
+}
+
+.form-control .btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1rem;
+}
